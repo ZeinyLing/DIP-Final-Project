@@ -1,5 +1,6 @@
 # Watermark Removal: A Weakly Supervised Approach Using Multi-View Visual Models and Inpainting
-
+<img src="pictures/pic1.png" width="450">
+<img src="pictures/pic2.png" width="450">
 ## Requirements
 ```
 pip install -r requirements.txt
