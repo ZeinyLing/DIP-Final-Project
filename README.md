@@ -26,5 +26,5 @@ python step1_train.py
 
 ## Step4.Inpaint on Colab
 
-[Main Inpaint code (Stable-Diffusion-Inpaint)](https://doi.org/10.34740/KAGGLE/DSV/5811178](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+[Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 ## Step5.Inpaint on Colab
