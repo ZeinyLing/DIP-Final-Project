@@ -12,6 +12,7 @@ Download the train part, and split it into train, val , test by random
 python step1_train.py
 ```
 ## Step1.Training model
+According to your file name, modify 
 ```
 python step1_train.py
 ```
