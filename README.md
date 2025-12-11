@@ -14,6 +14,9 @@ python step1_train.py
 ## Step1.Training model
 According to your file name, modify 
 ```
+# data_dir = './dataset/' <--- According to your file name , modify it in code
+
+#run code
 python step1_train.py
 ```
 ## Step2.Voting
