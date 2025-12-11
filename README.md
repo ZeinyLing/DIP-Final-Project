@@ -8,16 +8,21 @@ pip install -r requirements.txt
 [Kaggle watermark dataset]()
 
 ## Step0.Image Preprocessing to Multi-View
-
-
+```
+python step1_train.py
+```
 ## Step1.Training model
-
-
+```
+python step1_train.py
+```
 ## Step2.Voting
-
-
+```
+python step2_voting.py
+```
 ## Step3.CAM to Mask
-
+```
+python step1_train.py
+```
 
 ## Step4.Inpaint on Colab
 
