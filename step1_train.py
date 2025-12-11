@@ -20,7 +20,7 @@ torch.cuda.empty_cache()
 n_epoch =  100
 s_batch = 8
 
-data_dir = './dataset_meg/'
+data_dir = './dataset/'
 '''
 transforms.CenterCrop(224),
 transforms.RandomHorizontalFlip(p=0.5),
@@ -185,7 +185,7 @@ model_ft, val_acc, acc_records, f1_records = train_model(
 )
 
 acc_str = str(val_acc).split('.')[1]
-torch.save(model_ft,model_select+'_ep_'+str(n_epoch)+'_meg.pkl')
+torch.save(model_ft,model_select+'_ep_'+str(n_epoch)+'.pkl')
 
 df = pd.DataFrame(acc_records)
 df.to_csv(model_select+'_Records_ep_'+str(n_epoch)+'_meg.csv', index=False)
