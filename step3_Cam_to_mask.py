@@ -29,7 +29,7 @@ FALLBACK_CLASS = 0
 WEIGHTS = [0.65, 0.1, 0.1, 0.1, 0.05]
 
 OUT_CAM_DIR = "./cam_outputs2/"
-OUT_MASK_DIR = "./mask_outputs2/"
+OUT_MASK_DIR = "./mask_outputs/"
 os.makedirs(OUT_CAM_DIR, exist_ok=True)
 os.makedirs(OUT_MASK_DIR, exist_ok=True)
 # ==========================================================
@@ -221,7 +221,7 @@ def main():
 
     # ----------------- 輸出 CSV -----------------
     import csv
-    with open("voting_results222.csv", "w", newline="", encoding="utf-8") as f:
+    with open("voting_results.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["image_name", "voting_pred"])
         writer.writerows(csv_rows)
