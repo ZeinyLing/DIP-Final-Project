@@ -82,13 +82,14 @@ python step3_Cam_to_mask.py
 ## Step4.Inpainting on Colab
 - [Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 - According to your file name, modify it in code. You need have origin fold and mask fold.
+- We provide the mask_outputs and test_P that you can skip the step0~step3
 - [P_test fold](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 - [mask_output](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
 # ==========================
 INPUT_DIR = "/content/drive/MyDrive/test_P/"     # 原圖資料夾
-MASK_DIR  = "/content/drive/MyDrive/mask_outputs2"      # mask 資料夾
+MASK_DIR  = "/content/drive/MyDrive/mask_outputs"      # mask 資料夾
 # ==========================
 ```
 SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single image. We have organized them.
