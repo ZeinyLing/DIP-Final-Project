@@ -44,8 +44,8 @@ python step1_train.py
 ```
 
 ## Step4.Inpainting on Colab
-[Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
-According to your file name, modify it in code. You need have origin fold and mask fold.
+- [Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+- According to your file name, modify it in code. You need have origin fold and mask fold.
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
 # ==========================
