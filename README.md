@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 ## Datasets From kaggle
 - [Kaggle watermark dataset](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Download the train part, and split it into train, val , test by random
-- [With our split](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Same split in our experiment
+- [With our split](https://drive.google.com/file/d/1KRExZd-n0Wp9TuM1rvyY9j0sMigMfu7T/view?usp=sharing) <-- Same split in our experiment
 
 ## Step0. Image Preprocessing to Multi-View
 - According to your root , modify it in code.
