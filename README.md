@@ -66,6 +66,8 @@ python step2_voting.py
 ```
 #run code
 python step3_Cam_to_mask.py
+
+#You will get the mask_outputs fold.
 ```
 
 ## Step4.Inpainting on Colab
