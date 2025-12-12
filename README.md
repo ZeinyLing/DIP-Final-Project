@@ -99,3 +99,11 @@ SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single im
 - [GLCIC](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Not ideal
 
 ## Step5.Inpaint on Colab
+- According to your file name/root, modify it in code.
+```
+#According to your file name, modify it in code. You need have origin fold and mask fold
+# ==========================
+INPUT_DIR = "/content/drive/MyDrive/test_P/"     # 原圖資料夾
+MASK_DIR  = "/content/drive/MyDrive/mask_outputs"      # mask 資料夾
+# ==========================
+```
