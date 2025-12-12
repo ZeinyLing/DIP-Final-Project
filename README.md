@@ -91,6 +91,8 @@ python step3_Cam_to_mask.py
 INPUT_DIR = "/content/drive/MyDrive/test_P/"     # 原圖資料夾
 MASK_DIR  = "/content/drive/MyDrive/mask_outputs"      # mask 資料夾
 # ==========================
+
+#You will get the output_inpaint fold.
 ```
 SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single image. We have organized them.
 - [LaMa](https://colab.research.google.com/drive/1HnJHSdmJX0aFYq4bdilXC59RHQtWKEQn?usp=sharing) Good results
