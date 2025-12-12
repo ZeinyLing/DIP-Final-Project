@@ -33,12 +33,16 @@ python sobel.py
 
 #run code
 python step1_train.py
+
+#You have to train 5 models.
 ```
 ## Step2. Voting to enhance recall
 - According to your file name/root, modify it in code. 
 ```
 #run code
 python step2_voting.py
+
+#You will get the performence on test.
 ```
 ## Step3. CAM to Mask
 - According to your file name/root, modify it in code. 
