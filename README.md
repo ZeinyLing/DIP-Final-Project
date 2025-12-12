@@ -103,7 +103,7 @@ SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single im
 - [DeepFillv2](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Good results
 - [GLCIC](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Not ideal
 
-## Step5.Inpaint on Colab
+## step5_Eval3_if_still_watermark
 - According to your file name/root, modify it in code.
 - results fold is the output_inpaint we get on step4
 ```
@@ -118,6 +118,12 @@ MODEL_PATHS = [
     "./resnet50_ep_100_sobel.pkl",   # SOBEL 模型
 ]
 # ==========================
+
+
+#run code
+python step5_Eval3_if_still_watermark.py
+
+#You will get a csv that let you know which images still have watermark
 ```
 
 ## Results
