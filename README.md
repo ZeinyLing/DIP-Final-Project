@@ -65,7 +65,7 @@ python step2_voting.py
 - According to your file name/root, modify it in code. 
 ```
 #run code
-python step3_train.py
+python step3_Cam_to_mask.py
 ```
 
 ## Step4.Inpainting on Colab
