@@ -48,10 +48,10 @@ python step1_train.py
 ```
 python step1_train.py
 ```
-- SINGLE IMAGE INPAINTING TEST
-- [LaMa](https://colab.research.google.com/drive/1HnJHSdmJX0aFYq4bdilXC59RHQtWKEQn?usp=sharing)
-- [Partial Convolution](https://colab.research.google.com/drive/1Cyfyd7zVlK1mcRAR7aMT0sv42Td3TSy3?usp=sharin)
-- [DeepFillv2](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) 
-- [GLCIC](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+SINGLE IMAGE INPAINTING TEST
+- [LaMa](https://colab.research.google.com/drive/1HnJHSdmJX0aFYq4bdilXC59RHQtWKEQn?usp=sharing) Good results
+- [Partial Convolution](https://colab.research.google.com/drive/1Cyfyd7zVlK1mcRAR7aMT0sv42Td3TSy3?usp=sharin) Good results
+- [DeepFillv2](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Good results
+- [GLCIC](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Not ideal
 
 ## Step5.Inpaint on Colab
