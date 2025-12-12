@@ -102,10 +102,17 @@ SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single im
 
 ## Step5.Inpaint on Colab
 - According to your file name/root, modify it in code.
+- results fold is the output_inpaint we get on step4
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
 # ==========================
-INPUT_DIR = "/content/drive/MyDrive/test_P/"     # 原圖資料夾
-MASK_DIR  = "/content/drive/MyDrive/mask_outputs"      # mask 資料夾
+DATA_DIR = "./results/"  # 單一資料夾，裡面只有影像
+MODEL_PATHS = [
+    "./resnet50_ep.pkl",             # ORI 模型
+    "./resnet50_ep_100_gray.pkl",    # GRAY 模型
+    "./resnet50_ep_100_clahe.pkl",   # CLAHE 模型
+    "./resnet50_ep_100_meg.pkl",     # MEG 模型
+    "./resnet50_ep_100_sobel.pkl",   # SOBEL 模型
+]
 # ==========================
 ```
