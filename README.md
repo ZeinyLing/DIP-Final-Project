@@ -82,6 +82,8 @@ python step3_Cam_to_mask.py
 ## Step4.Inpainting on Colab
 - [Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 - According to your file name, modify it in code. You need have origin fold and mask fold.
+- [P_test fold](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+- [mask_output](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
 # ==========================
