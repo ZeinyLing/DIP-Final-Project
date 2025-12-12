@@ -12,7 +12,7 @@ pip install -r requirements.txt
 [Kaggle watermark dataset](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Download the train part, and split it into train, val , test by random
 [Kaggle watermark dataset](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Same split in our experiment
 
-## Step0.Image Preprocessing to Multi-View
+## Step0. Image Preprocessing to Multi-View
 - According to your root , modify it in code.
 ```
 input_root = "./data"  <--- According to your root , modify it in code.
@@ -34,15 +34,32 @@ python sobel.py
 #run code
 python step1_train.py
 
-#You have to train 5 models.
+#You have to train 5 models for 5 dataset.
 ```
 ## Step2. Voting to enhance recall
 - According to your file name/root, modify it in code. 
 ```
+# ==========================
+DATA_DIRS = [
+    "./dataset_ori/test/",
+    "./dataset_gray/test/",
+    "./dataset_CLAHE/test/",
+    "./dataset_meg/test/",
+    "./dataset_sobel/test/",
+]
+MODEL_PATHS = [
+    "./resnet50_ep.pkl",
+    "./resnet50_ep_100_gray.pkl",
+    "./resnet50_ep_100_clahe.pkl",
+    "./resnet50_ep_100_meg.pkl",
+    "./resnet50_ep_100_sobel.pkl",
+]
+# ==========================
+
 #run code
 python step2_voting.py
 
-#You will get the performence on test.
+#You will get the Voting performence on test.
 ```
 ## Step3. CAM to Mask
 - According to your file name/root, modify it in code. 
