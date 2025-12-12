@@ -26,7 +26,7 @@ python sobel.py
 
 #There will have 5 datasets after this step.
 ```
-## Step1.Training model
+## Step1. Training model
 According to your file name, modify it in code.
 ```
 # data_dir = './dataset/' <--- According to your file name , modify it in code.
@@ -34,11 +34,11 @@ According to your file name, modify it in code.
 #run code
 python step1_train.py
 ```
-## Step2.Voting
+## Step2. Voting to enhance recall
 ```
 python step2_voting.py
 ```
-## Step3.CAM to Mask
+## Step3. CAM to Mask
 ```
 python step1_train.py
 ```
