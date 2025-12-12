@@ -76,7 +76,7 @@ MODEL_PATHS = [
 #run code
 python step3_Cam_to_mask.py
 
-#You will get the mask_outputs fold.
+#You will get the mask_outputs fold and cam_outputs folds.
 ```
 
 ## Step4.Inpainting on Colab
