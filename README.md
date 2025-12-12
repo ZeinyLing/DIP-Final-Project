@@ -94,6 +94,7 @@ MASK_DIR  = "/content/drive/MyDrive/mask_outputs"      # mask 資料夾
 
 #You will get the output_inpaint fold.
 ```
+<img src="pictures/pic5.png" width="900">
 SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single image. We have organized them.
 - [LaMa](https://colab.research.google.com/drive/1HnJHSdmJX0aFYq4bdilXC59RHQtWKEQn?usp=sharing) Good results
 - [Partial Convolution](https://colab.research.google.com/drive/1Cyfyd7zVlK1mcRAR7aMT0sv42Td3TSy3?usp=sharin) Good results
@@ -116,3 +117,8 @@ MODEL_PATHS = [
 ]
 # ==========================
 ```
+
+## Results
+<img src="pictures/pic3.png" width="900">
+
+<img src="pictures/pic4.png" width="900">
