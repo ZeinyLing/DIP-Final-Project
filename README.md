@@ -45,6 +45,7 @@ python step1_train.py
 
 ## Step4.Inpainting on Colab
 [Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+According to your file name, modify it in code. You need have origin fold and mask fold.
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
 # ==========================
@@ -52,7 +53,7 @@ INPUT_DIR = "/content/drive/MyDrive/test_P/"     # 原圖資料夾
 MASK_DIR  = "/content/drive/MyDrive/mask_outputs2"      # mask 資料夾
 # ==========================
 ```
-SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single image. We organize them.
+SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single image. We have organized them.
 - [LaMa](https://colab.research.google.com/drive/1HnJHSdmJX0aFYq4bdilXC59RHQtWKEQn?usp=sharing) Good results
 - [Partial Convolution](https://colab.research.google.com/drive/1Cyfyd7zVlK1mcRAR7aMT0sv42Td3TSy3?usp=sharin) Good results
 - [DeepFillv2](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Good results
