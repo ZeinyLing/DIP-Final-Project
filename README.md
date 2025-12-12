@@ -103,7 +103,7 @@ SINGLE IMAGE INPAINTING TEST ,  You can try other inpainting model for single im
 - [DeepFillv2](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Good results
 - [GLCIC](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing) Not ideal
 
-## step5_Eval3_if_still_watermark
+## Step5_Eval3_if_still_watermark
 - According to your file name/root, modify it in code.
 - results fold is the output_inpaint we get on step4
 ```
