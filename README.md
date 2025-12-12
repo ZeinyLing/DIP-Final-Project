@@ -13,13 +13,23 @@ pip install -r requirements.txt
 [Kaggle watermark dataset](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Same split in our experiment
 
 ## Step0.Image Preprocessing to Multi-View
+According to your root , modify it in code.
 ```
-python step1_train.py
+input_root = "./data"  <--- According to your root , modify it in code.
+output_root = "./dataset_****"
+
+cd step0_Img_preprocessing
+python clahe.py
+python gray.py
+python meg.py
+python sobel.py
+
+#There will have 5 datasets after this step.
 ```
 ## Step1.Training model
-According to your file name, modify 
+According to your file name, modify it in code.
 ```
-# data_dir = './dataset/' <--- According to your file name , modify it in code
+# data_dir = './dataset/' <--- According to your file name , modify it in code.
 
 #run code
 python step1_train.py
