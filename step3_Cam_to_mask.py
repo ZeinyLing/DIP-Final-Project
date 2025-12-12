@@ -28,7 +28,7 @@ THRESHOLD = 0.99
 FALLBACK_CLASS = 0
 WEIGHTS = [0.65, 0.1, 0.1, 0.1, 0.05]
 
-OUT_CAM_DIR = "./cam_outputs2/"
+OUT_CAM_DIR = "./cam_outputs/"
 OUT_MASK_DIR = "./mask_outputs/"
 os.makedirs(OUT_CAM_DIR, exist_ok=True)
 os.makedirs(OUT_MASK_DIR, exist_ok=True)
