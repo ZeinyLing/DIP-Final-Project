@@ -64,6 +64,15 @@ python step2_voting.py
 ## Step3. CAM to Mask
 - According to your file name/root, modify it in code. 
 ```
+DATA_DIR = "./dataset_ori/test/P/"       # 單一資料夾
+MODEL_PATHS = [
+    "./resnet50_ep.pkl",             # ORI 模型
+    "./resnet50_ep_100_gray.pkl",    # GRAY 模型
+    "./resnet50_ep_100_clahe.pkl",   # CLAHE 模型
+    "./resnet50_ep_100_meg.pkl",     # MEG 模型
+    "./resnet50_ep_100_sobel.pkl",   # SOBEL 模型
+]
+
 #run code
 python step3_Cam_to_mask.py
 
