@@ -13,7 +13,7 @@ pip install -r requirements.txt
 [Kaggle watermark dataset](https://doi.org/10.34740/KAGGLE/DSV/5811178) <-- Same split in our experiment
 
 ## Step0.Image Preprocessing to Multi-View
-According to your root , modify it in code.
+- According to your root , modify it in code.
 ```
 input_root = "./data"  <--- According to your root , modify it in code.
 output_root = "./dataset_****"
@@ -27,7 +27,7 @@ python sobel.py
 #There will have 5 datasets after this step.
 ```
 ## Step1. Training model
-According to your file name, modify it in code.
+- According to your file name, modify it in code.
 ```
 # data_dir = './dataset/' <--- According to your file name , modify it in code.
 
@@ -35,12 +35,16 @@ According to your file name, modify it in code.
 python step1_train.py
 ```
 ## Step2. Voting to enhance recall
+- According to your file name/root, modify it in code. 
 ```
+#run code
 python step2_voting.py
 ```
 ## Step3. CAM to Mask
+- According to your file name/root, modify it in code. 
 ```
-python step1_train.py
+#run code
+python step3_train.py
 ```
 
 ## Step4.Inpainting on Colab
