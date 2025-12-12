@@ -83,7 +83,7 @@ python step3_Cam_to_mask.py
 - [Main Inpaint code (Stable-Diffusion-Inpaint)](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 - According to your file name, modify it in code. You need have origin fold and mask fold.
 - We provide the mask_outputs and test_P that you can skip the step0~step3
-- [P_test fold](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
+- [P_test fold](https://drive.google.com/drive/folders/1SXwS4aK0-wRt4pIpd4-plG8CfSZQWhM8?usp=sharing)
 - [mask_output](https://colab.research.google.com/drive/1TiPyjSF8TU-NQiozjsXROZE5zkQGJrcr?usp=sharing)
 ```
 #According to your file name, modify it in code. You need have origin fold and mask fold
