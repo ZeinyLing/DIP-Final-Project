@@ -123,4 +123,6 @@ MODEL_PATHS = [
 ## Results
 <img src="pictures/pic3.png" width="900">
 
+<img src="pictures/pic6.png" width="900">
+
 <img src="pictures/pic4.png" width="900">
